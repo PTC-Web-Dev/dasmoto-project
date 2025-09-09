@@ -1,6 +1,38 @@
 ### Dasmoto's Arts & Crafts
 
 ---
+No problem. Here is a version of the project brief, formatted to mimic the step-by-step instructions from Codecademy, with the hints separated. You can use a second markdown file in the GitHub repository (e.g., `HINTS.md`) to hold the hints, and simply link to it from the main `README.md` file.
+
+-----
+
+### **1. Get Started**
+
+This project is intended to be completed on your own computer. To successfully finish the project, make sure to download the images that are linked above. There’s no single, correct way to complete this project, so experiment and have fun\!
+
+If you do want more assistance, i.e., read a transcription of the image for more guidance, please see the [HINTS.md](https://www.google.com/search?q=HINTS.md) file. Otherwise, you can use the design image as a blueprint for your project\!
+
+### **2. Build the Header**
+
+Create the main header section of the page. This includes the large, centered heading for the business name.
+
+### **3. Add the Brushes Section**
+
+Below the header, create the first content section for "Brushes." This section should include the H2 header, the image, and all the associated text and pricing.
+
+### **4. Add the Frames Section**
+
+Create the second content section for "Frames." This section will follow the same pattern as the previous one, with a new H2 header, image, and text.
+
+### **5. Add the Paint Section**
+
+Create the final content section for "Paint." This section should include the H2 header, the image, and all the associated text and pricing.
+
+-----
+
+### **https://www.google.com/search?q=HINTS.md (separate file)**
+
+### **Project Hints & Specifications**
+
 
 ### **Project Brief**
 
