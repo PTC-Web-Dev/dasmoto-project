@@ -1,37 +1,93 @@
-# Dasmoto's Arts & Crafts
-
-**Project Overview**
-
-In this project, you will build a simple, responsive website for a fictional arts and crafts store. This project is designed to give you experience working with HTML and CSS on your local machine and managing your work with Git and GitHub.
-
-**Requirements**
-* A logical folder structure for your project files.
-* An `index.html` file.
-* A `style.css` file.
-* Use the provided images.
-
-**Design Specification**
-
-(Here, you can copy and paste the `Additional Help` and `Tasks` sections from the project brief, formatted nicely with Markdown headings and bullet points.)
+### Dasmoto's Arts & Crafts
 
 ---
 
-### **3. Set Up the GitHub Classroom Assignment**
+### **Project Brief**
 
-1.  **Go to GitHub Classroom**: Navigate to your GitHub Classroom organization. If you haven't set one up, you'll need to do that first.
-2.  **Create a new assignment**: Select "New assignment" and give it a descriptive name, like "Dasmoto's Arts & Crafts".
-3.  **Choose the assignment type**: Select "Individual assignment".
-4.  **Set the starter code**: This is the most important part. Choose the option to "Import starter code" from an existing repository. You'll need to create a new, private repository in your GitHub account with the starter files you prepared in step 1. Name this repository something like `dasmoto-starter-code`.
-5.  **Configure settings**:
-    * **Repository naming prefix**: `dasmotos-arts-and-crafts-` (GitHub will automatically append each student's username to this).
-    * **Visibility**: "Private" is best so students can work independently and you can view their progress.
-    * **Feedback**: You can enable "Continuous feedback" to leave comments on their code as they work.
-    * **Invites**: Generate an invite link for your students. You can share this link in Slack or Google Classroom.
+Welcome to your first off-platform project! For this assignment, you will build a simple, single-page website for a fictional arts and crafts store called Dasmoto's Arts & Crafts. This project is a great opportunity to apply your HTML and CSS skills outside of the Codecademy environment.
 
-### **Why this approach works**
+The goal is to recreate a provided design specification, just like you would for a client in a real-world web development job. This is a chance to practice **self-directed learning**, so you are encouraged to use online resources, documentation, and the hints provided below to solve problems on your own.
 
-* **Workplace Simulation**: By providing starter files and a `README.md` with specifications, you are simulating a real-world scenario where a developer is given a project brief and assets.
-* **Encourages Self-Directed Learning**: The project intentionally provides less hand-holding. The hints are in the `README`, but the students are expected to use them as a guide, not a step-by-step instruction manual. This pushes them to use external resources like documentation and search engines to solve problems, a critical skill for any developer.
-* **Git Practice**: Students will learn the essential workflow of `git clone`, making changes, `git add`, `git commit`, and `git push` in a practical context. This is a fundamental skill that will prepare them for future group projects and job interviews.
+### **Getting Started**
 
-Let me know if you need help drafting the final `README.md` file or if you run into any issues with GitHub Classroom. I'm here to support you! 🚀
+1.  **Accept the assignment** on GitHub Classroom. This will create a private repository for you.
+2.  **Clone the repository** to your local machine using Git.
+3.  **Open the project folder** in your preferred text editor (like VS Code or Sublime Text). You'll find a basic file structure and the necessary images.
+4.  **Start building!** You'll be working with `index.html` and `style.css`.
+
+### **Project Requirements**
+
+To complete this project successfully, your website must include:
+
+* A logical folder structure with separate files for your HTML and CSS.
+* An `index.html` file to build the page content.
+* A `style.css` file to handle all the styling.
+* All four of the provided images: `pattern.jpg`, `hacksaw.jpeg`, `frames.jpeg`, and `finnish.jpeg`.
+
+### **Design Specifications**
+
+The following is a detailed transcription of the design spec for the website. Use these descriptions and the image as your blueprint.
+
+#### **Section 1: The Header**
+* **H1 Text:** “Dasmoto’s Arts & Crafts”
+* **Styling:** The text should be centered and bolded. It should sit on top of the `pattern.jpg` image, which acts as the background.
+* **CSS Rulesets:**
+    * `font-family: Helvetica;`
+    * `font-size: 100px;`
+    * `font-weight: bold;`
+    * `color: khaki;`
+
+#### **Section 2: Brushes**
+* **H2 Text:** “Brushes”
+* **Styling:** This text should be on a background that is `mediumspringgreen` and spans the entire width of the page.
+* **CSS Rulesets:**
+    * `font-family: Helvetica;`
+    * `font-size: 32px;`
+    * `font-weight: bold;`
+    * `color: white;`
+* **Image:** The `hacksaw.jpeg` image should be displayed below the `H2` and aligned to the left.
+* **H3 Text:** “Hacksaw Brushes” (black and bold, aligned left).
+* **Paragraph Text:** “Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes.” (black, aligned left).
+* **Price Text:** “Starting at $3.00 / brush” (follows the paragraph text).
+* **Price CSS Rulesets:**
+    * `font-family: Helvetica;`
+    * `font-weight: bold;`
+    * `color: blue;`
+
+#### **Section 3: Frames**
+* **H2 Text:** “Frames”
+* **Styling:** This text should be on a background that is `light coral` and spans the entire width of the page.
+* **CSS Rulesets:**
+    * `font-family: Helvetica;`
+    * `font-size: 32px;`
+    * `font-weight: bold;`
+    * `color: white;`
+* **Image:** The `frames.jpeg` image should be displayed below the `H2` and aligned to the left.
+* **H3 Text:** “Art Frames (assorted)” (black and bold, aligned left).
+* **Paragraph Text:** “Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs.” (black, aligned left).
+* **Price Text:** “Starting at $2.00 / frame.” (follows the paragraph text).
+* **Price CSS Rulesets:**
+    * `font-family: Helvetica;`
+    * `font-weight: bold;`
+    * `color: blue;`
+
+#### **Section 4: Paint**
+* **H2 Text:** “Paint”
+* **Styling:** This text should be on a background that is `skyblue` and spans the entire width of the page.
+* **CSS Rulesets:**
+    * `font-family: Helvetica;`
+    * `font-size: 32px;`
+    * `font-weight: bold;`
+    * `color: white;`
+* **Image:** The `finnish.jpeg` image should be displayed below the `H2` and aligned to the left.
+* **H3 Text:** “Clean Finnish Paint” (black and bold, aligned left).
+* **Paragraph Text:** “Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork.” (black, aligned left).
+* **Price Text:** “Starting at $5.00 / tube.” (follows the paragraph text).
+* **Price CSS Rulesets:**
+    * `font-family: Helvetica;`
+    * `font-weight: bold;`
+    * `color: blue;`
+
+---
+
+Good luck, and remember, a key part of this project is learning to problem-solve on your own. If you get stuck, try searching online for a solution or consulting your Codecademy materials. You've got this!
